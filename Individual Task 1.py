@@ -38,15 +38,27 @@ radian = degree*3.14/180
 print(degree)
 print(radian)
 
+def countRad (n):
+    rad = n*3.14/180
+    print(rad)
+
+countRad(150)
+
 #2
-student1 = 80.0
-student2 = 90.0
-student3 = 66.5
-average = (student1 + student2 + student3)/3
-print(student1)
-print(student2)
-print(student3)
+students = [80.0,90.0,66.5]
+
+average = (students[0] + students[1] + students[2])/3
+for student in students:
+    print(student)
+    
 print(average)
+
+
+def countAvg (i,j,k):
+    avg = (i+j+k)/3
+    print(avg)
+
+countAvg(80.0,90.0,66.5)
 
 #3
 class1students = 32
