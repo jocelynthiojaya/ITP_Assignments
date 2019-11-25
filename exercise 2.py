@@ -76,3 +76,31 @@ def inc_by_two(x):
 x = 10
 inc_by_two(x)
 print("x = ", x)
+
+def calc_q1(x): 
+    q = 4 * x + 1 
+    return q 
+ 
+print(calc_q1(5))
+
+
+#Pembahasan
+
+s = 1
+def f():
+    global s #ini buat ngebikin s di dalem fungsi global
+    print (s)
+    s = 2
+    print(s)
+f()
+print(s)
+
+
+def calc_q4(x): 
+    q = 4 * x + 1 
+    return q
+ 
+print(calc_q4(5))
+
+x = round(5.76543, 2) #ini func round. round(angka awal, decimal place)
+print(x)
