@@ -57,3 +57,11 @@ def histogram(list: [int]):
         print("*" * i)
 
 histogram([3,5,6])
+
+#7
+def stringToInt(list: [str]):
+    intList: [int] = []
+    for i in list:
+        intList.append(len(i))
+    return intList
+print(stringToInt(["asdf","ghj"]))
