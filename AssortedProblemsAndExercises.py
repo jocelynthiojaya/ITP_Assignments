@@ -39,3 +39,14 @@ def is_member(value: str, list: [str]):
             print("False")
             return
 is_member("m", ["a","b","c"])
+
+#5
+def is_overlapping(list1: [str], list2: [str]):
+    for i in list1:
+        for j in list2:
+            if i == j:
+                return True
+    return False
+
+
+print(is_overlapping(["a","b","c"],["c","d","e"]))
