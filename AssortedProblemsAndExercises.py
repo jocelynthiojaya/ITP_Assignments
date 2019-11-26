@@ -50,3 +50,10 @@ def is_overlapping(list1: [str], list2: [str]):
 
 
 print(is_overlapping(["a","b","c"],["c","d","e"]))
+
+#6
+def histogram(list: [int]):
+    for i in list:
+        print("*" * i)
+
+histogram([3,5,6])
