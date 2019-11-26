@@ -28,3 +28,14 @@ for vowel in var_input:
 
 
 print(sentence)
+
+#4
+def is_member(value: str, list: [str]):
+    for i in list:
+        if value == i:
+            print("True")
+            return
+        else:
+            print("False")
+            return
+is_member("m", ["a","b","c"])
