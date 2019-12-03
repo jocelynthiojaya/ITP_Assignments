@@ -20,3 +20,13 @@ def prime (n):
     return prime[n-1]
 
 prime(100)
+
+def fac(n):
+    if n == 1:
+        return n
+    elif n<1:
+        return "-"
+    else:
+        return n*fac(n-1)
+print(fac(4))
+
