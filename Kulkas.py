@@ -125,7 +125,7 @@ while endprogram == False:
             elif answer == 'middle':
                 itemtake = input('What do you want to take?')
                 takevolume = int(input('How much do you want to take?'))
-                if takevolume > midyesshelf[itemtake]:
+                if takevolume > midshelf[itemtake]:
                     print('That amount of ' + itemtake + ' is not available.')
                 else:
                     if itemtake in midshelf:
